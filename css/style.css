@@ -8,6 +8,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent
 }
 a{
     text-decoration: none;
@@ -210,6 +211,21 @@ body{
     padding: 0 50px;
     text-align: center;
 
+}
+.copyright{
+    font-size: 12px;
+    color: #dfdddd;
+    padding: 0 0 10px 0;
+}
+.copyright a{
+    transition: all 0.3s ease;
+    color: #ec9027;
+    text-decoration: #ec9027 underline;
+
+}
+.copyright a:hover{
+    color: #ec7327;
+    text-decoration: #ec7327 underline;
 }
 
 @media screen and (max-width: 900px) {
